@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "xinchenethanmod",
+  "version": "1.0.0",
+  "name": "XinchenEthanMod",
+  "authors": [
+    "ethan, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.xinchenethanmod.XinchenethanmodMod"
+    ],
+    "client": [
+      "net.mcreator.xinchenethanmod.XinchenethanmodModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
